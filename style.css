@@ -12,7 +12,11 @@ a {
     display:block;
     clear:both;
 }
+header, nav, h2, .main-visual, footer {
+    font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
 header {
+    position: relative;
     width: 90%;
     padding: 15px 0;
     text-align: center;
@@ -20,6 +24,15 @@ header {
 }
 header .headline {
     font-size: 32px;
+}
+.social {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+.social i{
+    display: inline-block;
+    margin-left: 28px;
 }
 .nav-list {
     text-align: center;
@@ -97,6 +110,20 @@ header .headline {
     border-radius: 3px;
     color: #fff;
     font-size: 11px;
+}
+.pagination{
+    text-align: center;
+    padding-top: 50px;
+}
+.pagination p {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin:0 5px;
+    background-color: #acabab;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 30px;
 }
 .sidebar {
     width: 230px;
